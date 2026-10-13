@@ -25,7 +25,7 @@ export default function Home() {
       </ul>
 
       <a
-        href="#"
+        href="https://buy.stripe.com/test_9B6bITbq4gFMaFu8rQ04800"
         style={{
           display: "block",
           textAlign: "center",
