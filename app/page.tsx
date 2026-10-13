@@ -1,4 +1,4 @@
-const LIEN_BOUTON = "COLLE_TON_LIEN_STRIPE_ICI";
+const LIEN_BOUTON = "https://buy.stripe.com/test_9B6bITbq4gFMaFu8rQ04800";
 
 export default function Home() {
   return (
