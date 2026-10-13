@@ -1,0 +1,50 @@
+:root {
+  --bleu: #14213d;
+  --brique: #c2410c;
+  --creme: #faf6ef;
+  --pierre: #5f5e59;
+  --filet: #e4ddd0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--creme);
+  color: var(--bleu);
+  font-family: var(--font-corps), system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-titre), Georgia, serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.bouton {
+  display: block;
+  text-align: center;
+  padding: 18px 20px;
+  background: var(--brique);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 19px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.bouton:focus-visible {
+  outline: 3px solid var(--bleu);
+  outline-offset: 3px;
+}
