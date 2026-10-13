@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "react";
+import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
   title: "Licences : repérez les logiciels payés que personne n'utilise",
