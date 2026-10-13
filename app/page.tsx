@@ -1,4 +1,4 @@
-const LIEN_BOUTON = "https://buy.stripe.com/test_9B6bITbq4gFMaFu8rQ04800";
+const LIEN_BOUTON = "/questions";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
       </p>
 
       <a href={LIEN_BOUTON} className="bouton">
-        Commencer
+        Commencer, c'est gratuit
       </a>
 
       <section
@@ -83,7 +83,7 @@ export default function Home() {
       </ol>
 
       <a href={LIEN_BOUTON} className="bouton">
-        Commencer
+        Commencer, c'est gratuit
       </a>
     </main>
   );
